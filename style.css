@@ -66,10 +66,10 @@ header li:hover{
     max-width: 800px;
     min-width: 320px;
     background-color: white;
-    height: 100vh;
+    
     padding-top: 2px;
 }
-#container01 #item01 h3{
+#container01 #item h3{
     background-color: rgba(2, 125, 207, 0.753);
     color: white;
     width: 93%;
@@ -82,6 +82,9 @@ header li:hover{
     margin-left: 30px;
     display: flex;
 }
+div#trailer{
+    margin-left: 30px
+}
 #a1 > div#img{
     background-image: url(https://i3.wp.com/smartanimes.com/wp-content/uploads/2024/07/1722183798-7545-142390.jpg?resize=247,350);
     width: 280px;
@@ -89,6 +92,16 @@ header li:hover{
 }
 #a1 #descricao{
     margin-left: 10px;
+}
+div#sinopse > p{
+    text-align: justify;
+    background-color: rgba(2, 125, 207, 0.753);
+    color: white;
+    width: 93%;
+    margin-left: 30px;
+    
+    padding-top: 10px;
+    text-align: center;
 }
 #container01 button{
     width: 110px;
@@ -108,4 +121,15 @@ header li:hover{
 #container01 button a:hover{
     color: brown;
     text-shadow: 0px 0px 4px white;
+}
+div#epsodios a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: red;
+    font-size: 1.2em;
+}
+div#epsodios a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: white;
 }
