@@ -83,7 +83,10 @@ header li:hover{
     display: flex;
 }
 div#trailer{
-    margin-left: 30px
+    
+    position: relative;
+    top: 5%;
+    left: 5%;
 }
 #a1 > div#img{
     background-image: url(https://i3.wp.com/smartanimes.com/wp-content/uploads/2024/07/1722183798-7545-142390.jpg?resize=247,350);
@@ -92,6 +95,7 @@ div#trailer{
 }
 #a1 #descricao{
     margin-left: 10px;
+   
 }
 div#sinopse > p{
     text-align: justify;
