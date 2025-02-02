@@ -42,7 +42,7 @@ div#sinopse > p{
     background-color: rgba(2, 125, 207, 0.753);
     color: white;
     width: 93%;
-    margin-left: 20px;
+    margin-left: 15px;
     
     padding-top: 10px;
     text-align: center;
@@ -83,14 +83,14 @@ header nav{
     background-color: rgba(2, 125, 207, 0.753);
     color: white;
     width: 93%;
-    margin-left: 20px;
+    margin-left: 15px;
     height: 40px;
     text-align: center;
     padding-top: 16px;
     text-align: center;
 }
 #a1{
-    margin-left: 20px;
+    margin-left: 15px;
     display: block;
     background-color: rgb(41, 230, 189);
     padding-top: 20px;
@@ -112,7 +112,7 @@ header nav{
 }
 div#epsodios a{
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
     color: red;
     font-size: 1.1em;
 }
