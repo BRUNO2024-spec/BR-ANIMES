@@ -49,6 +49,7 @@ header a{
 }
 div#trailer{
     padding-bottom: 50%;
+    width: 94%;
     background-color: rgba(2, 125, 207, 0.753);
     position: relative;
 }
