@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(191, 218, 226);
+}
+li{
+    display: inline;
+    
+}
+header{
+    background-image: url(https://1.bp.blogspot.com/-AGT3faQXD7s/VysNaMHrQ4I/AAAAAAAAFQ0/2Wioz991Cwcpv9jnG6YEmuBB1R5BWEjDgCK4B/s1600/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 272px;
+    padding-top: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+}
+header > h2 > .c01{
+    color: white;
+    margin-left: 70px;
+    font-size: 2em;
+    font-family: fantasy;
+    text-shadow: 1.5em black;
+}
+header nav{
+    
+    margin-top: 127px;
+    background-color: rgba(2, 125, 207, 0.753);
+    height: 63px;
+    width: 100%;
+    padding-top: 3px;
+}
+header li{
+   
+    
+    padding: 18px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.295);
+    height: 40px;
+    width: 80px;
+}
+header > nav > menu > li > a:hover{
+    color: black;
+}
+header li:hover{
+    background-color: rgba(98, 182, 238, 0.973);
+    
+    
+}
+#container01{
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    background-color: white;
+    height: 100vh;
+    padding-top: 2px;
+}
+#container01 #item01 h3{
+    background-color: rgba(2, 125, 207, 0.753);
+    color: white;
+    width: 93%;
+    margin-left: 30px;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+}
+#a1{
+    margin-left: 30px;
+    display: flex;
+}
+#a1 > div#img{
+    background-image: url(https://i3.wp.com/smartanimes.com/wp-content/uploads/2024/07/1722183798-7545-142390.jpg?resize=247,350);
+    width: 280px;
+    height: 320px;
+}
+#a1 #descricao{
+    margin-left: 10px;
+}
+#container01 button{
+    width: 110px;
+    height: 34px;
+    background-color: rgb(122, 218, 241);
+    border-radius: 10px;
+}
+#container01 button:hover{
+    background-color: aquamarine;
+}
+#container01 button a{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-size: 1.2em;
+    text-shadow: 0px 0px 4px black;
+}
+#container01 button a:hover{
+    color: brown;
+    text-shadow: 0px 0px 4px white;
+}
