@@ -47,6 +47,18 @@ header a{
     height: 10px;
     width: 80px;
 }
+div#trailer{
+    padding-bottom: 50%;
+    background-color: rgba(2, 125, 207, 0.753);
+    position: relative;
+}
+div#trailer iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 header nav{
     
     margin-top: 151px;
