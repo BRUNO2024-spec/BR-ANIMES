@@ -35,11 +35,11 @@ header nav{
     background-color: rgba(2, 125, 207, 0.753);
     height: 63px;
     width: 100%;
-    padding-top: 3px;
+    padding-top: 20px;
 }
 header li{
    
-    
+    margin-left: 20px;
     padding: 18px;
     
 }

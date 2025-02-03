@@ -11,7 +11,7 @@ body{
 header{
     background-image: url(https://1.bp.blogspot.com/-AGT3faQXD7s/VysNaMHrQ4I/AAAAAAAAFQ0/2Wioz991Cwcpv9jnG6YEmuBB1R5BWEjDgCK4B/s1600/header.png);
     background-size: cover;
-    text-align: center;
+    
     background-position: center;
     background-repeat: no-repeat;
     height: 272px;
@@ -24,18 +24,14 @@ li{
     display: inline;
     
 }
-header > h2 > .c01{
-    color: rgb(157, 220, 240);
-    font-size: 1.4em;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 0px 0px 2px white;
+header h2{
+  font-size: 1.3em;
 }
+
 header li{
-   
-    
-    padding: 10px;
-    
+    padding-left: 10px;
+    margin-right: -20px;
+
 }
 div#sinopse > p{
     text-align: justify;
@@ -52,10 +48,9 @@ header a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    text-align: center;
+    
     text-shadow: 2px 2px rgba(0, 0, 0, 0.295);
-    height: 10px;
-    width: 80px;
+    
 }
 div#trailer{
     
@@ -73,26 +68,30 @@ div#trailer iframe{
 }
 header nav{
     
-    margin-top: 151px;
+    margin-top: 140px;
     background-color: rgba(2, 125, 207, 0.753);
     height: 60px;
-    width: 100%;
-    padding-top: 3px;
+    
+    width: 90%;
+    margin-left: 25px;
+    padding-top: 20px;
+    
 }
 #container01 #item h3{
     background-color: rgba(2, 125, 207, 0.753);
     color: white;
     width: 93%;
-    margin-left: 15px;
+    margin-left: 18px;
     height: 40px;
     text-align: center;
     padding-top: 16px;
     text-align: center;
 }
 #a1{
-    margin-left: 15px;
+    margin-left: 18px;
+    width: 93%;
     display: block;
-    background-color: rgb(41, 230, 189);
+    background-color: rgb(144, 187, 178);
     padding-top: 20px;
     height: 100vh;
 }
@@ -105,7 +104,7 @@ header nav{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 100px;
+    margin-left: 80px;
     
     width: 280px;
     height: 320px;
